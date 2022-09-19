@@ -13,7 +13,7 @@ An scout2 robot carrying RS16 lidar/IMU/D435 sensors，running LIO-SAM in a room
 * Eigen 3.3.7
 * PCL 1.9
 
-more detail in my blog 
+more detail in my blog https://blog.csdn.net/weixin_40599145/article/details/126929222?spm=1001.2014.3001.5501
 
 # 2. Run
 
