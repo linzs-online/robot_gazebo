@@ -13,9 +13,33 @@ An scout2 robot carrying RS16 lidar/IMU/D435 sensors，running LIO-SAM in a room
 * Eigen 3.3.7
 * PCL 1.9
 
-more detail in my blog https://blog.csdn.net/weixin_40599145/article/details/126929222?spm=1001.2014.3001.5501
+more detail on my blog https://blog.csdn.net/weixin_40599145/article/details/126929222?spm=1001.2014.3001.5501
 
-# 2. Run
+# 2. Compile
+
+```sh
+$ mkdir -P robot_ws/src
+$ cd robot_ws/src
+$ git clone https://github.com/linzs-online/robot_gazebo.git
+$ cd ..
+$ catkin_make
+```
+
+# 3. Run
+
+before your launch the demo, you should source the workspace
+
+if you used bash
+
+```sh
+$ source ~/robot_ws/devel/setup.bash
+```
+
+if you used zsh
+
+```sh
+$ source ~/robot_ws/devel/setup.zsh
+```
 
 ###  Start the simulation environment
 
