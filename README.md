@@ -23,7 +23,7 @@ more detail in my blog
 $ roslaunch scout_gazebo scout_gazebo.launch
 ```
 
-![gazebo](https://img-blog.csdnimg.cn/39c58cb0d9ad4754a66f2a76ddc0bb73.png)
+![gazebo](/png/gazebo.png)
 
 ### Start the lio-sam
 
@@ -31,7 +31,7 @@ $ roslaunch scout_gazebo scout_gazebo.launch
 $ roslaunch lio_sam run.launch
 ```
 
-![rviz](https://img-blog.csdnimg.cn/d43b87db3df747b788c51d39479910bc.png)
+![rviz](/png/rviz.png)
 
 ### Control by keyboard
 
@@ -39,4 +39,4 @@ $ roslaunch lio_sam run.launch
 $ rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 ```
 
-![mapping](https://img-blog.csdnimg.cn/5a4d7d38c42845fc8dfe065fbc0dc41a.png)
+![mapping](/png/mapping.png)
