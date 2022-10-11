@@ -73,12 +73,12 @@
         </collision>
     </link>
 
-    <!-- <link name="base_footprint"/>
+    <link name="base_footprint"/>
     <joint name="base_footprint_joint" type="fixed">
         <origin xyz="0 0 0" rpy="0 0 0" />
-        <parent link="base_footprint" />
-        <child link="base_link" />
-    </joint> -->
+        <parent link="base_link" />
+        <child link="base_footprint" />
+    </joint>
 
     <link name="inertial_link">
         <inertial>
