@@ -1,5 +1,5 @@
 # robot_gazebo
-An scout2 robot carrying RS16 lidar/IMU/D435 sensors，running LIO-SAM in a room!
+Scout2 robot carrying RS16 lidar/IMU/D435 sensors，running LIO-SAM in a room!
 
 # 1. Environment 
 
